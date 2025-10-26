@@ -4,23 +4,22 @@ using namespace std;
 
 // User function Template for C++
 class Solution {
-  public:
-    pair<long long, long long> getMinMax(vector<long long int> arr) {
+public:
+    vector<int> getMinMax(vector<int> &arr) {
         int min = arr[0];
         int max = arr[0];
-        if(arr.size()==1){
-            return{max,min};
-        }
-        for(int i=0;i<arr.size();i++){
-            if(arr[i]<min){
+
+        // No need for special case; loop handles single-element arrays fine
+        for(int i = 1; i < arr.size(); i++) {
+            if(arr[i] < min) {
                 min = arr[i];
             }
-            if(arr[i]>max){
+            if(arr[i] > max) {
                 max = arr[i];
             }
         }
-        return {min,max};
-        
+
+        return {min, max};
     }
 };
 
@@ -45,4 +44,4 @@ class Solution {
     }
     return 0;
 }
-// } Driver Code Ends
+// } Driver Code Ends  
