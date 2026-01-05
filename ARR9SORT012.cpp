@@ -1,6 +1,8 @@
 //Given an array which consists of only 0, 1 and 2. Sort the array without using any sorting algo
 //{ Driver Code Starts for input 102 this code output is 012
 // DUTCH NATIONAL FLAG PROBLEM
+// Time Complexity: O(n)
+// Space Complexity: O(1)
 #include <bits/stdc++.h>
 using namespace std;
 

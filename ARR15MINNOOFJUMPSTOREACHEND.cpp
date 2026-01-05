@@ -42,3 +42,6 @@ class Solution {
         return -1;  // If we exit loop without reaching end
     }
 };
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)

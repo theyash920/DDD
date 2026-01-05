@@ -1,4 +1,6 @@
 //Move all the negative elements to one side of the array 
+// Time Complexity: O(n)
+// Space Complexity: O(1)
 #include<bits/stdc++.h>
 using namespace std;
 
