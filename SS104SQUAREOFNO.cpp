@@ -1,0 +1,11 @@
+class Solution {
+  public:
+    int countSquares(int n) {
+        int a = sqrt(n);          
+        if (a * a == n) {
+            return a - 1;
+        } else {
+            return a;
+        }
+    }
+};
