@@ -18,8 +18,8 @@ class Solution {
         vector<int> result(n);
         for (int i = 0; i < n; i++) {
             result[i] = l[i] * r[i];
-        }
+        } 
 
         return result;
     }
-};
+}; 
