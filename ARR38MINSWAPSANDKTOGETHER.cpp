@@ -2,7 +2,7 @@
 class Solution {
   public:
     int minSwap(vector<int>& arr, int k) {
-        // code here
+        // code here     
         int n = arr.size();
         int count = 0;
         for(int i = 0;i < n; ++i){
